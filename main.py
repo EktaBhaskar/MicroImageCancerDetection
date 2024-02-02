@@ -139,8 +139,8 @@ if __name__ == "__main__":
     start_time = time.time()
     tracemalloc.start()
     microbiology_runner = MicrobiologyResearchRunner()
-    microbiology_runner.generate_fake_data(3, 1000)
-    microbiology_runner.run_cancer_detection("Cancer_Images", 1000)
+    microbiology_runner.generate_fake_data(3, 100000)
+    microbiology_runner.run_cancer_detection("Cancer_Images", 100000)
     end_time = time.time()
     elapsed_time = end_time - start_time
     print(f"Elapsed time: {elapsed_time} seconds")
