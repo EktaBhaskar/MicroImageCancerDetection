@@ -27,12 +27,15 @@ Rest other image sizes works great even on 8GB RAM Macbook.
     
 
 ## Dye Sensor Image(Storing and calculating Cancer):
-### 1. Representation: 4 coordinates of dye-rectangle
-### 2. Explanation: Coordinates are stored as (x1, x2, x3, x4), compactly representing dye locations without storing the entire image.
-### 3. Estimate: Since we're storing only 4 corner coordinates of the dye blob(rectangle), worst case scenario:-
-    a. For each point: 2 coordinates×4 bytes/coordinate=8 bytes
-    b. 4 points×8 bytes/point = 32 bytes
-  In worst case, storing information for Dye-Sensor image would be 32 bytes.
+### 1. Representation: 
+       4 coordinates of dye-rectangle
+### 2. Explanation: 
+       Coordinates are stored as (x1, x2, x3, x4), compactly representing dye locations without storing the entire image.
+### 3. Estimate: 
+        Since we're storing only 4 corner coordinates of the dye blob(rectangle), worst case scenario:-
+        a. For each point: 2 coordinates×4 bytes/coordinate=8 bytes
+        b. 4 points×8 bytes/point = 32 bytes
+## In worst case, storing information for Dye-Sensor image would be 32 bytes.
 
 
 
