@@ -1,0 +1,16 @@
+2024-02-02 13:42:05.355 Python[8277:248049] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+overlapped  0.0
+Parasite 1 Has Cancer: False
+overlapped  0.9090543182332027
+Parasite 2 Has Cancer: True
+overlapped  0.7661396754568068
+Parasite 3 Has Cancer: True
+overlapped  0.7141707144472084
+Parasite 4 Has Cancer: True
+overlapped  0.0
+Parasite 5 Has Cancer: False
+overlapped  0.0
+Parasite 6 Has Cancer: False
+Elapsed time: 6.879449129104614 seconds
+Current memory usage: 4.161287 MB
+Peak memory usage: 18.115589 MB
