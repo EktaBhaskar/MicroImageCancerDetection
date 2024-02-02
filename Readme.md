@@ -1,11 +1,14 @@
 # **How to Run program(On Mac):**
-1. create virtual env :- python -m venv dragonfruit
-2. source dragonfruit/bin/activate
-3. pip install -r requirements.txt
-4. Create a folder(if not present) :- "Cancer_Images" in same directory as main.py
-5. Run main.py > Results.txt with any given input image_size, , I implemented an end-to-end procedure from simulation to processing to validation.
-6. Close the series of displayed images as they appear to continue running the program.
-7. Check contents of Results.txt for the results.
+### 1. create virtual env :- 
+    python -m venv dragonfruit
+### 2. Activate 
+    source dragonfruit/bin/activate
+### 3. Install requirements
+    pip install -r requirements.txt
+### 4. Create a folder(if not present) :- "Cancer_Images" in same directory as main.py
+### 5. Run main.py > Results.txt with any given input image_size, , I implemented an end-to-end procedure from simulation to processing to validation.
+### 6. Close the series of displayed images as they appear to continue running the program.
+### 7. Check contents of Results.txt for the results.
 
 Note:- Since the worst case space complexity for running 100,000X100,000 image is ~ 9 GB. If you're running with 100,000X100,000 image size, make sure to run on a system that can handle that much otherwise it might cash. Ideally running on a 16 GB RAM Mac should work.
 Rest other image sizes works great even on 8GB RAM Macbook.
